@@ -33,3 +33,16 @@ cmd git stash pop will come back to use this file and push to origin
 1.Git pull > To get the latest version of a repository run git pull. This pulls the changes from the remote repository to the local computer.
 cmd for pull git pull
 2.git fetch > The git fetch command downloads commits, files, and refs from a remote repository into your local repo
+
+
+##Git merging vs git rebase (fast forward merge)
+1.Git merge> independent lines of development created by git branch and integrate them into a single branch.
+2.Git rebase>Git rebase moves a feature branch into a master.(best way is rebase)
+3.Sqash commit will add all commit together into one commit
+
+
+##Process for creating Pull requests for review
+Pull requests are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators
+1. Once you push the changes to your repo, the Compare & pull request button will appear in GitHub.
+2.Open a pull request by clicking the Create pull request button. This allows the repo's maintainers to review your contribution. 
+    ask for some changes.
