@@ -18,3 +18,18 @@
 3.If we want to switch to another branch the cmd is for git checkout <branch_name>
 4.To Create Branch git checkout -b <branch_name>
 5.To Delete branch git checkout -d <branch_name>imp (you will delete branch from another)
+
+##Git Commit: Steps before commit (staging), discarding changes. Stash
+1.Always before committing you have to stage all file and then make a commit then push that branch
+2.if you think you had wrong in some file commit it you can revert back and remove some specifit commit by git revert <commit_id>
+3.Not under standing discarding.
+
+##changes, applying stash, perform initial git commit Initial Git Commit.
+1.stash will you store any secure data to some place that will be not accsible from other user
+cmd git stash -u (store current untracked files)
+cmd git stash pop will come back to use this file and push to origin
+
+##Git fetch and Git pull
+1.Git pull > To get the latest version of a repository run git pull. This pulls the changes from the remote repository to the local computer.
+cmd for pull git pull
+2.git fetch > The git fetch command downloads commits, files, and refs from a remote repository into your local repo
