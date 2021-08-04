@@ -1,0 +1,12 @@
+{
+  "name": "underStandingNodejs",
+  "version": "1.0.0",
+  "description": "1. Command to install node js sudo install node\r 2.init the npm in working directory(package.json)\r 3.log the hello world",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
